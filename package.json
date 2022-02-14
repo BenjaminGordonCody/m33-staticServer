@@ -1,5 +1,5 @@
 {
-  "name": "m33-staticServer",
+  "name": "m33-staticserver",
   "version": "1.0.0",
   "description": "��#\u0000 \u0000m\u00003\u00003\u0000-\u0000s\u0000t\u0000a\u0000t\u0000i\u0000c\u0000S\u0000e\u0000r\u0000v\u0000e\u0000r\u0000\r\u0000 \u0000",
   "main": "index.js",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/BenjaminGordonCody/m33-staticServer/issues"
   },
-  "homepage": "https://github.com/BenjaminGordonCody/m33-staticServer#readme"
+  "homepage": "https://github.com/BenjaminGordonCody/m33-staticServer#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
 }
