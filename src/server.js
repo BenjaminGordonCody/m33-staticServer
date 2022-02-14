@@ -1,8 +1,12 @@
+//imports
+require("./db/connection");
 const express = require("express");
-const app = express();
-const port = 5001; //this is standard for local development now
 
-app.use("/static", express.static("public"));
+//other globals
+const app = express();
+const port = process.env.PORT || 5001;
+
+app.use(express.json());
 
 app.listen(port, () => {
   console.log(`listening on port ${port}`);
